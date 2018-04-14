@@ -1,1 +1,1 @@
-# Web-Midterm
+# Facebook-like web page HTML/CSS
