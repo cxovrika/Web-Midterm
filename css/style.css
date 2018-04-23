@@ -52,12 +52,17 @@ table {
 /******************************/
 .pointer {cursor: pointer;}
 
+
 .top_bar {
   top: 0;
   position: fixed;
   z-index: 100;
   width: 100%;
-  background-color: blue;
+  background-color: #4168AC;
+}
+
+html {
+  background-color: #EAEBEF;
 }
 
 .logo_and_search {
@@ -69,15 +74,28 @@ table {
 .logo, .search_text, .search_button {
   float: left;
   display: inline;
-  margin-right: 5px;
-  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.search_text{
+  margin-top: 6px; 
+}
+
+.search_button {
+  margin-top: 6px;
 }
 
 
-#logo_img, #search_img {
+#logo_img {
+  width: 35px;
+  height: 35px;
+}
+
+#search_img {
   width: 23px;
   height: 23px;
 }
+
 
 #search_bar {
   width: 250px;
@@ -89,6 +107,7 @@ table {
   margin-right: 10%;
   display: inline;
   float: right;
+  margin-top: 3px;
 }
 
 .avatar_and_name, .avatar, .profile_name, .account_switcher, .home, .friends_messages_notifications,
@@ -108,12 +127,38 @@ table {
   margin-top: 7px;
   margin-left: 5px;
 }
-.avatar img, .account_switcher img, .friends img, .messages img, .notifications img {
+.avatar img, .account_switcher img {
   width: 23px;
   height: 23px;
+  border-radius: 50%;
 }
-.profile_name p, .home p {
+
+.friends img {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%; 
+}
+
+.messages img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;  
+  margin-top: 2px;
+}
+
+.notifications img {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;  
+  margin-top: 2px; 
+}
+
+
+
+
+.profile_name span, .home span {
   color: white;
+  font-size: 85%;
 }
 
 .account_switcher {
@@ -154,6 +199,7 @@ table {
   top:29px;
   margin-top: 20px;
   height: 100%;
+	background-color: red;
 }
 
 #left_part, #mid_part{
@@ -168,7 +214,7 @@ table {
   overflow: scroll;
   width: 40%;
   float: right;
-  background-color: red;
+  /* background-color: red; */
   display: inline-block;
   position: relative;
   /* bottom:225px; */
@@ -183,7 +229,7 @@ table {
   position: absolute;
   left: 20%;
   width: 35%;
-  background-color: red;
+  /* background-color: red; */
 }
 .right_part {
   right: 0;
@@ -267,7 +313,7 @@ table {
 }
 
 #stories {
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .story {
@@ -484,8 +530,12 @@ table {
 	display: inline;
 }
 
+.post {
+	background-color: pink;
+  overflow: all;
+  display: inline-block;
 
-
+}
 
 
 
