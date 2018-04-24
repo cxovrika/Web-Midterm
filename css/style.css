@@ -78,7 +78,7 @@ html {
 }
 
 .search_text{
-  margin-top: 6px; 
+  margin-top: 6px;
 }
 
 .search_button {
@@ -136,21 +136,21 @@ html {
 .friends img {
   width: 23px;
   height: 23px;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .messages img {
   width: 20px;
   height: 20px;
-  border-radius: 50%;  
+  border-radius: 50%;
   margin-top: 2px;
 }
 
 .notifications img {
   width: 21px;
   height: 21px;
-  border-radius: 50%;  
-  margin-top: 2px; 
+  border-radius: 50%;
+  margin-top: 2px;
 }
 
 
@@ -256,8 +256,9 @@ html {
 .messenger img,
 .shortcut img,
 .see_more img {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
+	border-radius: 0%;
 }
 
 .side_menu_span {
@@ -274,7 +275,7 @@ html {
 .messenger img, .messenger span {
   display: inline;
   float: left;
-  margin-left: 4px;
+  margin-left: 1px;
 }
 
 
@@ -537,7 +538,28 @@ html {
 
 }
 
+.see_more span, .see_more img {
+	float: left;
+	display: inline;
+	color: #2573ad;
+}
+.see_more img {
+	margin-top: 2px;
+}
 
+#creation_choices {
+	color: #2573ad;
+}
+
+#stories {
+	background-color: #FFFFFF;
+	border: 1px solid #dddfe2;
+	border-radius: 2%;
+}
+
+#stories_span {
+	margin-top: 10px;
+}
 
 
 /**/
