@@ -311,6 +311,8 @@ html {
 
 #stories_span, #games_span {
   margin-left: 10px;
+	font-weight: bold;
+	color:#3e4754;
 }
 
 #stories {
@@ -360,15 +362,14 @@ html {
 .game img {
   margin-left: 10px;
   margin-top: 15px;
-  width: 60px;
-  height: 60px;
+  width: 74px;
+  height: 74px;
   border-radius: 50%;
-  border: solid;
+  border: 1px solid;
 }
 
 #languages {
   margin-top: 50px;
-  background-color: pink;
   overflow: hidden;
 }
 
@@ -553,7 +554,7 @@ html {
 	color: #2573ad;
 }
 
-#stories {
+#stories, #games, #languages {
 	background-color: #FFFFFF;
 	border: 1px solid #dddfe2;
 	border-radius: 2%;
@@ -570,6 +571,17 @@ html {
 	font-size: 15px;
   line-height: 16px;
 }
+
+#langauge_choice_holer {
+	margin-left: 5px;
+}
+#langauge_choice_holer span {
+	color: #365899;
+	line-height: 1.34;
+	    font-size: 12px;
+}
+
+
 
 
 .story_time {
