@@ -15,7 +15,7 @@ time, mark, audio, video {
 	margin: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/* font: inherit; */
 	vertical-align: baseline;
   /* width: 100%; */
   /* height: 5%; */
@@ -548,6 +548,7 @@ html {
 	border-radius: 1%;
 	margin-top: 6px;
 	margin-bottom: 8px;
+	width: 100%;
 
   overflow: all;
   display: inline-block;
@@ -581,7 +582,7 @@ html {
 #contacts {
 	border: 1px solid #788da7;
 	/* border-radius: 2%; */
-	height: 100%;
+	height: 97%;
 }
 
 #stories_span {
@@ -592,7 +593,7 @@ html {
 .story_author {
 	color: #365899;
 	font-weight: 600;
-	font-family: inherit;
+	/* font-family: inherit; */
 	font-size: 15px;
   line-height: 16px;
 }
@@ -675,7 +676,7 @@ html {
 }
 
 .comment {
-	margin-top: 5px;
+	margin-top: 1px;
 	padding-top: 5px;
 	margin-left: 6px;
 	overflow: hidden;
@@ -700,7 +701,21 @@ html {
 .comment_author {
 	color: #004397;
 	font-weight: bold;
-	font-family: inherit;
+	/* font-family: inherit; */
 }
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.comment_text {
+	font-size: 88%;
+}
+
+.post_like, .post_comment, .post_share {
+	float: left;
+	display: inline;
+}
+
 
 /**/
